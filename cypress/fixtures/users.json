@@ -1,0 +1,7 @@
+{
+  "validUsers": [
+    { "mail": "bropet@mail.ru", "pass": "123" },
+    { "mail": "test@test.com", "pass": "test" }
+  ],
+  "invalidUsers": [{ "mail": "foo@foo.com", "pass": "bar" }]
+}

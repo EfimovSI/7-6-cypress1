@@ -1,0 +1,26 @@
+{
+  "mainPage": {
+    "loginForm": {
+      "loginInput": "#mail",
+      "passwordInput": "#pass",
+      "submitButton": "button[type='submit']"
+    }
+  },
+
+  "booksListPage": {
+    "favorits": "h4",
+    "logout": ".ml-auto > .ml-2",
+    "addNew": ".p-0",
+    "container": ".container",
+    "bookDescriptionForm": {
+      "title": "#title",
+      "description": "#description",
+      "cover": "#fileCover",
+      "book": "#fileBook",
+      "authors": "#authors",
+      "addToFavoriteCheckbox": "#favorite",
+      "submit": "form > .ml-2",
+      "cancel": ".btn-dark"
+    }
+  }
+}
