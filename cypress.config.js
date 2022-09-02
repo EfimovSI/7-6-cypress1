@@ -7,6 +7,8 @@ module.exports = defineConfig({
     },
     specPattern: 'cypress/integration/*.cy.{js,jsx,ts,tsx}',
     // retries: 2,
-    baseUrl: 'http://localhost:3000'
+    baseUrl: 'http://localhost:3000',
+    viewportWidth: 1920,
+    viewportHeight: 1080
   }
 });
