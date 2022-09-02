@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "cypress:test": "cypress run --spec cypress/integration/login.cy.js",
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "cy:headed:firefox": "cypress run --browser firefox --headed",
+    "cy:chrome": "cypress run --browser chrome",
+    "cy:headed:edge": "cypress run --browser edge --headed",
+    "cy:electron": "cypress run --browser electron"
   },
   "keywords": [],
   "author": "",
